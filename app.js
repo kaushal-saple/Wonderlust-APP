@@ -75,7 +75,7 @@ const sessionOptions={
 
 
 app.get('/',(req,res)=>{
-    res.render("redirect.ejs");
+    res.render("render.ejs");
 });
 
 app.use(session(sessionOptions));
