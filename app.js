@@ -75,7 +75,7 @@ const sessionOptions={
 
 
 app.get('/',(req,res)=>{
-    res.send("Hii, this is root page");
+    res.render("redirect.ejs");
 });
 
 app.use(session(sessionOptions));
