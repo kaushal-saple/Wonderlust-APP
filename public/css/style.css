@@ -1,0 +1,124 @@
+body{
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/*navbar*/
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color:#222222 !important;
+}
+
+/*footer*/
+.f-info{
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    font-size: 1.2rem;
+}
+.f-info-social,.f-info-links,.f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.f-info-social i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.f-info-links a{
+    color: #222222;
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    color: #222222;
+    text-decoration: underline ;
+}
+
+/*cards*/
+.card-listing{
+    margin-bottom: 2rem;
+    border: none !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+}
+
+.card-body{
+    padding:0px !important;
+}
+.image-text{
+    font-weight: 20rem !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* add new listing */
+
+.container{
+    flex:1;
+}
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/*show card*/
+
+.show-image{
+    height: 40vh !important;
+    border-radius: 5px;
+}
+
+.btns{
+    display: flex;
+    justify-content:start;
+}
+
+.card{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/* map */
+
+#map { 
+    height: 400px;
+    width: 70vh;
+}
+
+
